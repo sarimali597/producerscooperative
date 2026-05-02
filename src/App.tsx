@@ -39,8 +39,8 @@ function App() {
           <button
             onClick={() => setActiveTab('weigh')}
             className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 font-medium ${activeTab === 'weigh'
-                ? 'bg-green-800 text-white shadow-inner'
-                : 'text-green-100 hover:bg-green-800/50 hover:text-white'
+              ? 'bg-green-800 text-white shadow-inner'
+              : 'text-green-100 hover:bg-green-800/50 hover:text-white'
               }`}
           >
             <Tractor size={20} />
@@ -49,8 +49,8 @@ function App() {
           <button
             onClick={() => setActiveTab('pos')}
             className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 font-medium ${activeTab === 'pos'
-                ? 'bg-green-800 text-white shadow-inner'
-                : 'text-green-100 hover:bg-green-800/50 hover:text-white'
+              ? 'bg-green-800 text-white shadow-inner'
+              : 'text-green-100 hover:bg-green-800/50 hover:text-white'
               }`}
           >
             <Store size={20} />
@@ -59,8 +59,8 @@ function App() {
           <button
             onClick={() => setActiveTab('dashboard')}
             className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 font-medium ${activeTab === 'dashboard'
-                ? 'bg-green-800 text-white shadow-inner'
-                : 'text-green-100 hover:bg-green-800/50 hover:text-white'
+              ? 'bg-green-800 text-white shadow-inner'
+              : 'text-green-100 hover:bg-green-800/50 hover:text-white'
               }`}
           >
             <LayoutDashboard size={20} />
@@ -118,7 +118,7 @@ function App() {
 
         {/* Footer */}
         <footer className="py-3 text-center text-xs text-slate-400 border-t border-slate-200 bg-white">
-          Developed by <span className="font-semibold text-slate-500">Sarim Ali</span> • Producers Cooperative Association • Demo Environment
+          Developed by <span className="font-semibold text-slate-500">Store Flow</span> • Producers Cooperative Association • Demo Environment
         </footer>
       </main>
     </div>
